@@ -1,0 +1,10 @@
+Project Title: Autonomous Learning System For Language Models
+
+This project is an end-to-end system where a chatbot learns from user feedback.
+Is uses a technology called Retrieval-Augmented Generation (RAG) to answer questions based on 
+documents provided in its knowledge base.
+The core learning mechanism is Direct Preference Optimization (DPO).
+
+The tech stack includes Python, Gradio for the UI, Neon DB (Postgres) with SQLAlchemy for the
+database, and ChromaDB for the vector store.
+The entire retraining process is automated using GitHub Actions.
